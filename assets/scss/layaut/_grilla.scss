@@ -1,0 +1,90 @@
+.container, .container-fluid{
+    box-sizing: border-box;
+    grid-gap:1%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1rem;
+}
+
+.container{
+    max-width: 1024px;
+
+    margin: auto;
+}
+
+.container-fluid{
+    width: 100%;
+ 
+}
+
+.col-1{
+
+
+}
+
+.col-2{
+
+   
+    grid-column: span 2;
+
+    
+}
+
+.col-3{
+
+    grid-column: span 3;
+}
+
+.col-4{
+
+   
+    grid-column: span 4;
+}
+
+.col-5{
+
+ 
+    grid-column: span 5;
+}
+
+.col-6{
+
+ 
+    grid-column: span 6;
+}
+
+.col-7{
+
+   
+    grid-column: span 7;
+}
+
+.col-8{
+
+    grid-column: span 8;
+}
+
+.col-9{
+
+ 
+    grid-column: span 9;
+}
+
+.col-10{
+
+    grid-column: span 10;
+}
+
+.col-11{
+
+    grid-column: span 11;
+}
+
+.col-12{
+
+
+    grid-column:  span 12;
+}
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebound sesion 2 modulo 4</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+   <div class="container">
+        <h1 class="col-12 text-center">Calculadora Sesion 2 modulo 4</h1>
+        <div class="calculadora">
+            <input type="text" class="visor" id="visor" disabled>
+            <div class="operador" onclick="agregarVisor('+')">+</div>
+            <div class="operador" onclick="agregarVisor('-')">-</div>
+            <div class="operador" onclick="agregarVisor('*')">*</div>
+            <div class="operador" onclick="agregarVisor('/')">/</div>
+
+            <div class="digitos" onclick="agregarVisor('1')">1</div>
+            <div class="digitos" onclick="agregarVisor('2')">2</div>
+            <div class="digitos" onclick="agregarVisor('3')">3</div>
+            <div class="digitos" onclick="agregarVisor('4')">4</div>
+            <div class="digitos" onclick="agregarVisor('5')">5</div>
+            <div class="digitos" onclick="agregarVisor('6')">6</div>
+            <div class="digitos" onclick="agregarVisor('7')">7</div>
+            <div class="digitos" onclick="agregarVisor('8')">8</div>
+            <div class="digitos" onclick="agregarVisor('9')">9</div>
+
+            <div class="digitos" onclick="agregarVisor('0')">0</div>
+            <div class="operador operador--punto" onclick="agregarVisor('.')">.</div>
+            <div class="operador operador--ac" onclick="borrar('')">AC</div>
+            <div class="operador operador--igual" onclick="operar()">=</div>
+
+        </div>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
+   <script src="assets/js/myscript.js"></script>
+    
+</body>
+</html>
